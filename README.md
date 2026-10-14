@@ -13,7 +13,7 @@ Abre `index.html` en cualquier navegador. No requiere servidor, instalación ni 
 
 ## Fuente de los datos
 
-Los datos proceden del documento público *Espacios: capacidad y equipamientos (2025, actualizado)* disponible en la web de la Unidad de Gestión de Espacios de la UPO: <https://www.upo.es/campus/gestion-de-espacios/>
+Los datos proceden del documento público *Espacios: capacidad y equipamientos (2026, actualizado a 18-09-2026)* disponible en la web de la Unidad de Gestión de Espacios de la UPO: <https://www.upo.es/campus/gestion-de-espacios/>
 
 Se han transcrito manualmente desde el PDF a la estructura de datos de la aplicación. Cubre 17 edificios y 250 espacios. Los criterios de la hoja original se conservan:
 
@@ -26,7 +26,6 @@ Se han transcrito manualmente desde el PDF a la estructura de datos de la aplica
 
 La hoja original tiene celdas vacías e inconsistencias que se han respetado en lugar de corregir por conjetura:
 
-- **E4 A4** figura con capacidad normal 62 y capacidad en examen 90, lo que es imposible. Se muestra tal cual con una observación.
 - Muchos espacios del **E23**, los sótanos del **E24** y varias salas singulares (juntas, grados, Rectorado) tienen la mayoría de campos sin rellenar. Se muestran como "No consta", que no equivale a "No": un espacio sin dato de bloqueo de pizarra no aparecerá al filtrar por "No bloquea".
 - En filas con muchos huecos la alineación de columnas del PDF es ambigua y se ha interpretado por contexto. Para las aulas de docencia ordinaria el dato es fiable; para salas singulares conviene contrastarlo.
 
